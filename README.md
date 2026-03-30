@@ -9,7 +9,11 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 
 # Project Notes
 
-> You can use this section of the file to keep notes about your project as you work on it
+> To do:
+> Do the header
+> Choose colours
+> Choose fonts
+> Add images
 
 # Project Summary
 
