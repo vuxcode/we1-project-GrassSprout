@@ -9,7 +9,7 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 
 # Project Notes
 
-> To do:
+> To do next time:
 > Do the header
 > Choose colours
 > Choose fonts
