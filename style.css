@@ -1,0 +1,42 @@
+html {
+    background-color: rgb(238, 206, 164);
+}
+
+body {
+    margin: 10%;
+}
+
+.sidebar {
+    height: 100%;
+    width: 15vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: burlywood;
+    overflow-x: hidden;
+}
+
+a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+
+article {
+    margin-left: 8%;
+    background-color: white;
+    border-style: solid;
+    border-color: burlywood;
+    height: 100%;
+    width: 75vw;
+    padding: 3%;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}

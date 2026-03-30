@@ -4,5 +4,9 @@
 
 For example: 
 
-- 2022-10-25 13:00 Worked for 1 hour.
-  - *List the things you have done.*
+- 2026-03-30 12:30 Worked for 1 hour.
+  - Created the skeleton of the homepage
+  - Created a Style.css file
+  - Created the look of the pages
+  - Worked out the needed margin, border and padding for the article and sidebar
+  - Created a place for the sidebar menu
