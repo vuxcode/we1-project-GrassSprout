@@ -12,4 +12,8 @@ For example:
   - Created a place for the sidebar menu
   - Created the other pages
   - Linked all pages in the sidebar menu
-  - 
+
+- 2026-04-30 11:49 worked for 1 hour 30 minutes
+  - Worked on the sidebar
+  - added fonts maybe
+  - made the contact page

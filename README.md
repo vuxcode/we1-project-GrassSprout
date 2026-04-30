@@ -14,6 +14,7 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 > Choose colours
 > Choose fonts
 > Add images
+> Add texts
 
 # Project Summary
 
