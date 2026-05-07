@@ -13,6 +13,8 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 > Do the header
 > Add texts
 > Make a swedish version?
+> Add hover to images?
+> fix bugs
 
 # Project Summary
 
