@@ -23,10 +23,11 @@ For example:
   - Made the cards go to other pages
   - Updated the sidebar
 
-- 2026-05-07 13.15
+- 2026-05-07 13.15 worked for 2 hours 30 minutes
   - added some text
   - added box shadows
   - fixed a hover issue with the cards
   - added gradients to background
   - added images
   - styled the images
+  - Added alt text to images
