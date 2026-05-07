@@ -17,3 +17,8 @@ For example:
   - Worked on the sidebar
   - added fonts maybe
   - made the contact page
+
+- 2026-05-07 13.04 worked for 2 hours
+  - Made the cards for the homepage
+  - Made the cards go to other pages
+  - Updated the sidebar
