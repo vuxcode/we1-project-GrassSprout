@@ -22,3 +22,11 @@ For example:
   - Made the cards for the homepage
   - Made the cards go to other pages
   - Updated the sidebar
+
+- 2026-05-07 13.15
+  - added some text
+  - added box shadows
+  - fixed a hover issue with the cards
+  - added gradients to background
+  - added images
+  - styled the images
