@@ -11,10 +11,11 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 
 > To do next time:
 > Do the header
-> Add texts
 > Make a swedish version?
-> Add hover to images?
-> fix bugs
+> Add logo
+> Add comments
+> Add the language drop down menu
+
 
 # Project Summary
 

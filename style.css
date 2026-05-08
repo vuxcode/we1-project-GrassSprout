@@ -58,10 +58,7 @@ article {
 
 p {
 font-family: sans-serif;
-    text-align:left;
-}
-.phomepg {
-    text-align: center;
+    text-align:center;
 }
 
 h1, h2 {
@@ -102,7 +99,7 @@ input[type="submit" i] {
         width: 8%;
         margin: 2%;
         padding: 5%;
-        border: 2px groove;
+        border: 2px groove burlywood;
         border-radius: 25px;
         transition: transform 0.3s ease; 
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -129,7 +126,14 @@ border-radius: 25px;
 margin: 1%;
 }
 .workimg {
-     display: flexbox;
     justify-content: center;
     align-items: center;
+}
+img:hover {
+    width: 50%;
+}
+.videobox {
+display: flex;
+justify-content: center;
+align-items: center; 
 }
