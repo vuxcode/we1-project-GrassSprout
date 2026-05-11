@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    
+    <div class="content" data-lang="en">
     <div class="sidebar">
         <div class="buttonmenu">
         <a href="homepage.html">Home</a>
@@ -23,8 +23,15 @@
         <div class="buttonmenu">
         <a href="contact-page.html">Contact me</a>
         </div>
-        
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Languages</a>
+            <div class="dropdowncontent">
+              <a href="#" data-lang="en">English</a>
+              <a href="#" data-lang="sv">Svenska</a>
+            </div>
+          </div>
     </div>
+
     <article>
         <h1>Patterns</h1>
         <h2>Here are some patterns!</h2>
@@ -35,6 +42,43 @@
     </div>
     <p>This is a video that shows how to crochet a very cute Axolotl. It is beginner friendly and easy to follow!</p>
     </article>
+</div>
+
+<div class="content" data-lang="sv">
+    <div class="sidebar">
+        <div class="buttonmenu">
+        <a href="homepage.html">Startsida</a>
+        </div>
+        <div class="buttonmenu">
+        <a href="patterns-page.html">Mönster</a>
+        </div>
+        <div class="buttonmenu">
+        <a href="works-page.html">Project</a>
+        </div>
+        <div class="buttonmenu">
+        <a href="contact-page.html">Kontakta mig</a>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Språk</a>
+            <div class="dropdowncontent">
+              <a href="#" data-lang="en">English</a>
+              <a href="#" data-lang="sv">Svenska</a>
+            </div>
+          </div>
+    </div>
+
+    <article>
+        <h1>Mönster</h1>
+        <h2>Här är några mönster!</h2>
+        <p>Dom här mönstrerna är gratis och har antingen en Youtube video eller ett skrivet mönster</p>
+        <h2>Axolotl</h2>
+<div class="videobox">
+        <iframe width="560" height="315" src="https://www.youtube-NOCOOKIE.com/embed/oGlR-bIaxbY?si=HScppZoLKarIJuqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <p>Den här videon visar hur man virkar en väldigt söt Axolotl. Det är nybörjarvänligt och lätt att följa!</p>
+    </article>
+</div>
+<script src="Script.js"></script>
 </body>
 
 </html>

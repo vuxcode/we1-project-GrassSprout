@@ -31,3 +31,11 @@ For example:
   - added images
   - styled the images
   - Added alt text to images
+
+- 2026-05-11 14.00 worked for 1 hour 30 minutes
+  - Added a dropdown menu in the sidebar
+  - added language options in the dropwdown menu
+  - made it able to switch langugae between English and Swedish
+  - added a Swedish version of every page
+  - Made a script file for the language switching
+  

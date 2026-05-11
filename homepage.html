@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Website fn</title>
+    <title>Eva's</title>
     <link href="style.css" rel="stylesheet">
+   
 </head>
 
 <body>
     
-
+    <div class="content" data-lang="en">
     <div class="sidebar">
         <div class="buttonmenu">
         <a href="homepage.html">Home</a>
@@ -23,7 +24,17 @@
         <div class="buttonmenu">
         <a href="contact-page.html">Contact me</a>
         </div>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Languages</a>
+            <div class="dropdowncontent">
+              <a href="#" data-lang="en">English</a>
+              <a href="#" data-lang="sv">Svenska</a>
+            </div>
+          </div>
     </div>
+
+
+   
     <article>
         <h1>Homepage</h1>
         <h2>Hello and welcome to my website where I share my crochet patterns and works!</h2>
@@ -47,6 +58,58 @@
        <h2>About me</h2>
        <p>Hello! My name is Eva and I found a passion for crocheting after my eldest daughter introduced me. I have 7 children and a dog and 2 cats that keeps me busy everyday and I work as a nurse at an eldercare centre, so in my downtime I enjoy crocheting. I like to test out a lot of patterns: clothes, stuffed animals, toys, bags, decorations, blankets, etc. I wanted a website to showcase my works and share the patterns I like and some tips.</p>
     </article>
+</div>
+
+
+    <div class="content" data-lang="sv">
+        <div class="sidebar">
+            <div class="buttonmenu">
+            <a href="homepage.html">Startsida</a>
+            </div>
+            <div class="buttonmenu">
+            <a href="patterns-page.html">Mönster</a>
+            </div>
+            <div class="buttonmenu">
+            <a href="works-page.html">Project</a>
+            </div>
+            <div class="buttonmenu">
+            <a href="contact-page.html">Kontakta mig</a>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Språk</a>
+                <div class="dropdowncontent">
+                  <a href="#" data-lang="en">English</a>
+                  <a href="#" data-lang="sv">Svenska</a>
+                </div>
+              </div>
+        </div>
+
+    <article>
+        <h1>Startsida</h1>
+        <h2>Hej och välkommen till min hemsida där jag delar mina virkningsmönster och projekt!</h2>
+       
+<div class="page">
+    
+       <a class="note" href="patterns-page.html">
+        <h3>Mönster</h3>
+       </a>
+
+       <a class="note" href="works-page.html">
+        <h3>Project</h3>
+       </a>
+
+       <a class="note" href="contact-page.html">
+        <h3>Kontakt</h3>
+       </a>
+       </div>
+
+        <p>Klicka på någon av rutorna ovan eller på någon av alternativen i menyn för att navigera hemsidan!</p>
+       <h2>Om mig</h2>
+       <p>Hej! Mitt namn är Eva och jag fick en passion för virkning efter att min äldsta dotter visade mig. Jag har 7 barn, en hund och 2 katter som håller mig sysselsatt hela dagen Och jag jobbar som en sjuksköterska på ett ålderdomshem, så på min fritid gillar jag att virka. Jag gillar att pröva en massa olika mönster: kläder, mjukdjur, leksaker, väskor, dekorationer, filtar, och mer. Den här hemsidan är till för att dela mina projekt, mönster och tips.</p>
+    </article>
+</div>
+ <script src="Script.js"></script>
 </body>
+
 
 </html>

@@ -66,7 +66,6 @@ h1, h2 {
     text-align: center;
 }
 
-
 fieldset {
     border: dotted 2px burlywood;
     padding: 3%;
@@ -136,4 +135,34 @@ img:hover {
 display: flex;
 justify-content: center;
 align-items: center; 
+}
+
+.dropdown {
+    position: relative;
+  }
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropdowncontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdowncontent a:hover {
+    background-color: #f1f1f1
+  }
+  .dropdown:hover .dropdowncontent {
+    display: block;
+  }
+  .content {
+    display: none;
+    
+}
+.content[data-lang="en"] {
+    display: block;
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    
+    <div class="content" data-lang="en">
     <div class="sidebar">
         <div class="buttonmenu">
         <a href="homepage.html">Home</a>
@@ -23,6 +23,13 @@
         <div class="buttonmenu">
         <a href="contact-page.html">Contact me</a>
         </div>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Languages</a>
+            <div class="dropdowncontent">
+              <a href="#" data-lang="en">English</a>
+              <a href="#" data-lang="sv">Svenska</a>
+            </div>
+          </div>
     </div>
     <article>
         <h1>Finished Works</h1>
@@ -37,7 +44,45 @@
         <img src="cathulu2.jpg" alt="A green cat with tentacles in its face to resemble cthulhu">
         </div>
     </article>
-    
+</div>
+
+<div class="content" data-lang="sv">
+    <div class="sidebar">
+        <div class="buttonmenu">
+        <a href="homepage.html">Startsida</a>
+        </div>
+        <div class="buttonmenu">
+        <a href="patterns-page.html">Mönster</a>
+        </div>
+        <div class="buttonmenu">
+        <a href="works-page.html">Project</a>
+        </div>
+        <div class="buttonmenu">
+        <a href="contact-page.html">Kontakta mig</a>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Språk</a>
+            <div class="dropdowncontent">
+              <a href="#" data-lang="en">English</a>
+              <a href="#" data-lang="sv">Svenska</a>
+            </div>
+          </div>
+    </div>
+
+    <article>
+        <h1>Färdiga projekt</h1>
+        <h2>Mina färdiga projekt!</h2>
+        <p>Här är några av mina färdiga virknings projekt!</p>
+
+        <div class="workimg">
+        <img src="blanket2.jpg" alt="A blue and white striped blanket">
+        <img src="blackcat2.jpg" alt="A cute black cat with big eyes">
+        <img src="bunny2.jpg" alt="A cute white bunny with big eyes">
+        <img src="cat2.jpg" alt="A cute blue and white cat with big eyes">
+        <img src="cathulu2.jpg" alt="A green cat with tentacles in its face to resemble cthulhu">
+        </div>
+    </article>
+    <script src="Script.js"></script>
 </body>
 
 

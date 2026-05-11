@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Website fn</title>
+    <title>Eva's</title>
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
     
+    <div class="content" data-lang="en">
 
     <div class="sidebar">
         <div class="buttonmenu">
@@ -24,7 +25,16 @@
         <div class="buttonmenu">
         <a href="contact-page.html">Contact me</a>
         </div>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Languages</a>
+            <div class="dropdowncontent">
+              <a href="#" data-lang="en">English</a>
+              <a href="#" data-lang="sv">Svenska</a>
+            </div>
+          </div>
     </div>
+
+
     <article>
         <h1>Contact Me</h1>
 <form>
@@ -41,6 +51,51 @@
 <input id="submit" type="submit" value="Send">
 </form>
     </article>
+</div>
+
+<div class="content" data-lang="sv">
+    <div class="sidebar">
+        <div class="buttonmenu">
+        <a href="homepage.html">Startsida</a>
+        </div>
+        <div class="buttonmenu">
+        <a href="patterns-page.html">Mönster</a>
+        </div>
+        <div class="buttonmenu">
+        <a href="works-page.html">Project</a>
+        </div>
+        <div class="buttonmenu">
+        <a href="contact-page.html">Kontakta mig</a>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Språk</a>
+            <div class="dropdowncontent">
+              <a href="#" data-lang="en">English</a>
+              <a href="#" data-lang="sv">Svenska</a>
+            </div>
+          </div>
+    </div>
+
+    <article>
+        <h1>Kontakta mig</h1>
+<form>
+<fieldset>
+    <label for="email">Email</label>
+    <br>
+    <input id="email" type="email" placeholder="ditt.namn@gmail.com">
+    <br>
+    <label for="message">Ditt meddelande</label>
+    <br>
+    <textarea id="message" name="message" placeholder="Ditt meddelande här" ></textarea>
+
+</fieldset>
+<input id="submit" type="submit" value="Skicka">
+</form>
+    </article>
+</div>
+
+<script src="Script.js"></script>
 </body>
+
 
 </html>
