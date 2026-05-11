@@ -9,3 +9,8 @@ Solution: Removed the flexbox code
 Solution: moved a line of code into the <head> code 
 
 3. Problem: Language does not stay the same when going to another page 
+
+4. Problem: Pattern and contact me pages disapear when clicked?
+Solution: Removed the code
+5. Problem: It defaulted to Swedish on reload even when you click ENglish
+Solution: Removed the code

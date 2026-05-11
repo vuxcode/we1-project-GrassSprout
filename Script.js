@@ -1,7 +1,9 @@
 
     const dropdowncontent = document.querySelectorAll('.dropdowncontent a');
     const contentDivs = document.querySelectorAll('.content');
-     
+    
+   
+
     dropdowncontent.forEach(link => {
         link.addEventListener('click', function (e) {
             e.preventDefault();
@@ -18,12 +20,13 @@
                 selectedContent.style.display = 'block';
             }
             // Set the current language in localStorage
-            localStorage.setItem()
+          console.log(selectedLang)
+          localStorage.setItem("Language", selectedLang)
         });
     }); 
-    
     // Check localStorage to see if the language has already been selected
-    
+const sprog = localStorage.getItem("Language")
     // Load the "correct" language
+  
     
     

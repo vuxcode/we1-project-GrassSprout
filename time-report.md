@@ -38,4 +38,6 @@ For example:
   - made it able to switch langugae between English and Swedish
   - added a Swedish version of every page
   - Made a script file for the language switching
-  
+
+- 2026-05-11 18.00 worked for 2 hours
+  - Tried to make localstorage work but failed
