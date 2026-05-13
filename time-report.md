@@ -41,3 +41,6 @@ For example:
 
 - 2026-05-11 18.00 worked for 2 hours
   - Tried to make localstorage work but failed
+
+- 2026-05-13 18.30 worked for 1 hour 30 minutes
+  - Tried to make localstorage work and realise it's a server problem
