@@ -11,7 +11,6 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 
 > To do next time:
 > Do the header
-> Local storage
 > Add logo
 > Add comments
 > 
