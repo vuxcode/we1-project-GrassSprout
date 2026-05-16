@@ -16,3 +16,5 @@ Solution: Removed the code
 
 5. Problem: It defaulted to Swedish on reload even when you click English
 Solution: Removed the code
+
+6. Problem: The font in the logo is wrong....

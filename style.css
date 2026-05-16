@@ -9,7 +9,12 @@ html {
 body {
     margin: 10%;
 }
-
+.logo{
+width: 15vw;
+border: 1px burlywood;
+border-radius: 5px;
+    
+}
 .sidebar {
     height: 100%;
     width: 15vw;
@@ -118,7 +123,7 @@ h3 {
     justify-content: center;
     align-items: center;
 }
-img {
+.imgofwork {
     width: 25%;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border-radius: 25px;
@@ -128,7 +133,7 @@ margin: 1%;
     justify-content: center;
     align-items: center;
 }
-img:hover {
+.imgofwork:hover {
     width: 50%;
 }
 .videobox {
