@@ -3,7 +3,7 @@
 html {
   
     background-image:linear-gradient(to top, burlywood,rgb(238, 206, 164));
- 
+ /*Background colour*/
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 width: 15vw;
 border: 1px burlywood;
 border-radius: 5px;
-    
+  /*Details for logo*/  
 }
 .sidebar {
     height: 100%;
@@ -25,17 +25,19 @@ border-radius: 5px;
     background-image: linear-gradient(to bottom, burlywood,rgb(238, 206, 164) ) ;
     overflow-x: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*The menu details*/
 }
 .buttonmenu {
  transition: transform 0.3s ease;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ /*Make the options in menu look seperate*/
 }
 .buttonmenu:hover {
 transform: translatex(5px);
 }
 
 a {
-    
+    /*All the links have the same details*/
     padding: 20px 8px 10px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -51,6 +53,7 @@ a:hover {
     color: blanchedalmond;
 }
 article {
+    /*Creates the paper look*/
     margin-left: 8%;
     background-color: white;
     border-style: solid;
@@ -99,6 +102,7 @@ input[type="submit" i] {
 }
 
 .note {
+    /*Creates the squares on the homepage*/
         height: 9%;
         width: 8%;
         margin: 2%;
@@ -119,11 +123,13 @@ h3 {
     font-size: 100%;
 }
 .page {
+    /*Puts the images of the works correctly*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .imgofwork {
+    /*Details the images*/
     width: 25%;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border-radius: 25px;
@@ -134,6 +140,7 @@ margin: 1%;
     align-items: center;
 }
 .imgofwork:hover {
+    /*Enlarges the images when hovering*/
     width: 50%;
 }
 .videobox {
@@ -141,7 +148,7 @@ display: flex;
 justify-content: center;
 align-items: center; 
 }
-
+/*Details for dropdown menu and options*/
 .dropdown {
     position: relative;
   }
@@ -164,6 +171,7 @@ align-items: center;
   .dropdown:hover .dropdowncontent {
     display: block;
   }
+  /*Language details*/
   .content {
     display: none;
     

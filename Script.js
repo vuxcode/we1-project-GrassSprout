@@ -3,11 +3,12 @@
     const contentDivs = document.querySelectorAll('.content');
     
    
-
+    //Script to make the language buttons and switch work
     dropdowncontent.forEach(link => {
         link.addEventListener('click', function (e) {
             e.preventDefault();
             const selectedLang = this.getAttribute('data-lang');
+            // Needed to clear localstorage
             localStorage.clear()
             // Hide all content
             contentDivs.forEach(div => {
